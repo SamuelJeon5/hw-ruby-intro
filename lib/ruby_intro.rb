@@ -77,6 +77,6 @@ class BookInStock
   attr_accessor :price
   
   def price_as_string
-    print "$#{"%.2f" % @price}"
+    "$#{"%.2f" % @price}"
   end
 end
